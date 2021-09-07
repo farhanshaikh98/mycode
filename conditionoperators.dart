@@ -62,7 +62,7 @@ void main()
   dynamic d=100;
 
 
-  if(a==b && a==c)   //check condition
+  if(a<b && a>c)   //check condition
   {
     print(true);       // in this both condition are true
 }
