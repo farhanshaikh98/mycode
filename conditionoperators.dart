@@ -2,6 +2,20 @@ void main()
 {
   // arthematic operators
 /*   
+
+
+
+   int year=2014;
+  if(year%4==0)
+  {
+    print("year is leap year");
+  }                                         //leap year
+  elsa{
+    
+    print("year is note leap year");
+  }
+  
+  
   var a=50;    //intialize the integer value
   var b=36;
 
