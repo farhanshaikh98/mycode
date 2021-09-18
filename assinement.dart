@@ -106,3 +106,47 @@ void main(){
 
 
 
+
+
+
+/*Problem 5. Given a list of N integers A = [a1, a2, ..., aN], you have to find those integers which are
+repeated at least K times.
+Sample Input : [4, 5, 2, 5, 4, 3, 1, 3, 4] K=2
+Output : 4 5 3
+*/
+
+
+
+
+void main(){
+  List a=[4, 5, 2, 5, 4, 3, 1, 3, 4];
+  a.sort();                    //sorted list a=[1,2,3,3,4,4,4,5,5] 
+  int temp=0;
+  for(int i=0; i<a.length; i++)
+  {
+    int k=2;
+    for(int j=i+1; j<a.length; j++)
+    {
+      if(a[i]!=a[j])            //condition aplay index one is != index second 
+      {
+        break;                //break loop
+      }
+      if(temp==a[j])         
+      {
+        break;                 //break loop
+      }
+      else{                   
+        k-=2;              //condition are true k is -2
+      }
+      if(k<=0)             //check condition k is == 0
+      {
+        print(a[i]);     // print repeat number
+         temp=a[i];         
+        break;           //break loop
+      }
+    }
+  }
+}
+
+
+
