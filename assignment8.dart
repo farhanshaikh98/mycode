@@ -55,14 +55,14 @@ void main(){
 // 2. Find Maximum and Minimum Number of Array(one more type of problem number 2)
 
 
-// void main(){
-//   List<int> a=<int>[5,4,3,2,15,23,12,14,52,79,56,4,9];      //initialize  list 
+ void main(){
+   List<int> a=<int>[5,4,3,2,15,23,12,14,52,79,56,4,9];      //initialize  list 
 
-//   a.sort();                                 //sort list 
+  a.sort();                                 //sort list 
 
-//   print('Minimum Number of list ${a.first}');   //print minimun number of list
-//   print('Maximum Number of list ${a.last}');    //print maximun number of list
-// }
+   print('Minimum Number of list ${a.first}');   //print minimun number of list
+   print('Maximum Number of list ${a.last}');    //print maximun number of list
+ }
 
 
 
@@ -77,25 +77,25 @@ void main(){
 
 //3. Find The index of Maximum And Minimum Number
 
-// void main(){
-//   List<int> a=<int>[5,4,3,2,15,23,12,14,52,79,56,4,9];    //initialize  list 
-//   int temp=a[0],temp1=a[0];                     //index zero is asine in temp
-//   for(int i=1; i<a.length; i++)
-//   {
-//     if(a[i]<temp)                     //apply condition a of i is smaller then temp
-//     {
-//       temp=a[i];
-//     }
-//     if(a[i]>temp1)                     //apply condition a of i is greater then temp
-//     {
-//       temp1=a[i];
-//     }
+ void main(){
+   List<int> a=<int>[5,4,3,2,15,23,12,14,52,79,56,4,9];    //initialize  list 
+   int temp=a[0],temp1=a[0];                     //index zero is asine in temp
+   for(int i=1; i<a.length; i++)
+   {
+     if(a[i]<temp)                     //apply condition a of i is smaller then temp
+     {
+       temp=a[i];
+     }
+     if(a[i]>temp1)                     //apply condition a of i is greater then temp
+     {
+       temp1=a[i];
+     }
     
-//   }
-//  a.indexOf(temp1);
-//   print("index of Minimum Number  ${a.indexOf(temp)}");      //print minimun number index
-//   print("index of Maximum Number ${a.indexOf(temp1)}");      //print maximun number index
-// }
+   }
+  a.indexOf(temp1);
+   print("index of Minimum Number  ${a.indexOf(temp)}");      //print minimun number index
+   print("index of Maximum Number ${a.indexOf(temp1)}");      //print maximun number index
+ }
 
 
 
